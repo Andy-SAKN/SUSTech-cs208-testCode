@@ -4,8 +4,8 @@ public class produce {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // 接收用户输入的参数 n
-        System.out.print("Enter the number of boys and girls: ");
+        // 接收用户输入的参数 n，这里需要输入一个数字，和题干中的n一样
+    
         int n = scanner.nextInt();
 
         // 生成男孩和女孩的名字，确保不重复
